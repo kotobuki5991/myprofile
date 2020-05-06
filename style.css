@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+}
+header{
+  background-color: skyblue;
+}
+
+.背景画像{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.自分の写真{
+width: 150px;
+transform: rotate(270deg);
+}
+
+.プロフィール{
+  margin: auto;
+  display: block;
+  transform: translate(0%, -20%);
+  border-radius: 10%;
+}
+
+.myname{
+ transform: translate(20%, 0)
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 406px;
+}
+
+.container>div{
+  
+}
+
+.趣味全体>h1{
+  font-size: 55px;
+  text-align: center;
+}
+
+.趣味全体{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  background-attachment: fixed;
+  background-color: rgba(254, 255, 241, 0.7);
+}
+
+.趣味>h1{
+  font-size: 40px;
+}
+.趣味>img{
+  display: block;
+  margin: auto;
+}
+
+.趣味>p{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(170, 235, 255);
+}
